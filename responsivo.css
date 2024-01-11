@@ -1,0 +1,131 @@
+@media (max-width:450px) {
+
+    body {
+        background-color: hsl(185, 41%, 84%);
+        color: hsl(183, 100%, 15%);
+    }
+
+    h1 {
+        font-family: 'Space Mono';
+        margin: 12% 0 13% 40%;
+    }
+
+    #fundo {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        font-family: 'Space Mono';
+        width: 399px;
+        flex-direction: column;
+    }
+
+    .taxa{
+        padding: 25px 0px 23px 13px;
+    }
+
+    input {
+        padding-right: 15px;
+        border: none;
+        width: 325px;
+        height: 40px;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: hsl(189, 41%, 97%);
+        color: hsl(183, 100%, 15%);
+    }
+
+    .imgInput {
+        width: 24px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    ul {
+        padding: 0 0 0 18px;
+    }
+
+    .colunas {
+        font-family: 'Space mono';
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        margin: 5px;
+        background-color: hsl(183, 100%, 15%);
+        color: hsl(189, 41%, 97%);
+    }
+
+    #custom {
+        color: hsl(189, 41%, 97%);
+        height: 48px;
+    }
+
+    #custom::-webkit-input-placeholder {
+        color: hsl(189, 41%, 97%);
+    }
+
+    .btn:hover {
+        background-color: hsl(185, 41%, 84%);
+        color: hsl(183, 100%, 15%);
+    }
+
+    #conta {
+        background-color: hsl(183, 100%, 15%);
+        color: hsl(186, 14%, 43%);
+    }
+
+    .transparente {
+        color: hsl(184, 14%, 56%);
+    }
+
+    .imgDolar1 {
+        position: absolute;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .imgDolar2 {
+        position: absolute;
+        width: 30px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    #conta {
+        padding: 40px;
+    }       
+
+    .gorjeta {
+        margin-left: 65px;
+        font-weight: bolder
+    }
+
+    #resGorjeta {
+        color: hsl(172, 67%, 45%);
+        font-size: 45px;
+        padding: 0 0 0 40px;
+    }
+
+    .total {
+        margin-left: 65px;
+        font-weight: bolder
+    }
+
+    #resTotal {
+        color: hsl(172, 67%, 45%);
+        font-size: 45px;
+        padding: 0 0 0 40px;
+        margin-left: 68px;
+    }
+
+    #conta>.btn {
+        color: hsl(183, 100%, 15%);
+        font-weight: bold;
+        background-color: hsl(172, 67%, 45%);
+    }
+
+    #resQtdPessoas {
+        margin: 0 0 0 180px;
+    }
+}
