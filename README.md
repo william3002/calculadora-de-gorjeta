@@ -7,7 +7,6 @@ Esta é uma solução para o [desafio do aplicativo Tip calculator no Frontend M
 - [Overview](#visão-Geral)
   - [O desafio](#O-desafio)
   - [Captura de tela](#Solução)
-  - [Links](#links)
 - [Meu processo](#Meu-processo)
   - [Construido com](#Construido-com)
   - [Desenvolvimento continuo](#Desenvolvimento-continuo)
@@ -41,7 +40,7 @@ Os usuários devem ser capazes de:
 
 ### Desenvolvimento continuo 
 
-em projeto futuros pretendo trabalhar com utilizando alguns frameworks
+em projeto futuros pretendo trabalhar utilizando alguns frameworks
 
 
 ## Autor
