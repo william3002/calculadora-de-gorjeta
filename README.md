@@ -25,7 +25,7 @@ Os usuários devem ser capazes de:
 
 ## Solução
 
-[Solução](../calculadora-de-gorjeta-main/images/Captura%20de%20tela%202024-07-01%20230644.png)
+<img src="images/Captura de tela 2024-07-01 230644.png" alt="">
 
 
 ## Meu processo
