@@ -1,26 +1,17 @@
-/* Outro modo de adiciona fontes externas */
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
-
-/* @font-face {
-    src: url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
-    font-family: 'Space Mono';
-    font-weight: 700;
-} */
-
 body {
+    font-family: "Space Mono", monospace;
     background-color: hsl(185, 41%, 84%);
-    color: hsl(183, 100%, 15%);
 }
 
 h1{
-    font-family: 'Space Mono', monospace;
-    margin: 4% 0 2% 44%;
+    text-transform: uppercase;
+    margin: 5% 0 2% 44%;
 }
 
 #fundo {
     display: flex;
     font-family: 'Space Mono';
-    width: 900px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -62,21 +53,22 @@ ul {
 }
 
 #custom{
-    color: hsl(183, 100%, 15%);
-    background-color: hsl(189, 41%, 97%);
+    color: hsl(189, 41%, 97%);
     height: 48px;
 }
 
 #custom::-webkit-input-placeholder{
-    color: hsl(183, 100%, 15%);
+    color: hsl(189, 41%, 97%);
 }
 
 .btn:hover {
-    color: hsl(185, 41%, 84%);
-    background-color: hsl(183, 100%, 15%);
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
 }
 
 #conta {
+    min-width: 300px;
+    width: 600px;
     background-color: hsl(183, 100%, 15%);
     color: hsl(186, 14%, 43%);
 }
