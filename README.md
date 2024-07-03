@@ -44,5 +44,5 @@ em projeto futuros pretendo trabalhar utilizando alguns frameworks
 
 
 ## Autor
-- Website - [William araujo](https://www.your-site.com)
+- William Araujo dos Santos
 - Linkedin [William araujo](https://www.linkedin.com/in/william-araujo-3a6680256/)
