@@ -1,0 +1,27 @@
+input{
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 47%, 97%);
+}
+
+li{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+}
+
+li:hover{
+    color:  hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+}
+
+#container_valor_calculado{
+    background-color: hsl(183, 100%, 15%);
+}
+
+#container_valor_calculado > div > span{
+    color: hsl(172, 67%, 45%);
+}
+
+#container_valor_calculado > button{
+    background-color: hsl(172, 67%, 45%);
+    color:  hsl(183, 100%, 15%);
+}
