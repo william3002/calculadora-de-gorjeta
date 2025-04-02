@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
-*{
-    font-family: "Space Mono", monospace;
+* {
+  font-family: "Space Mono", monospace;
 }
 
-body{ background-color: hsl(185, 41%, 84%);}
+body {
+  background-color: hsl(185, 41%, 84%);
+}
