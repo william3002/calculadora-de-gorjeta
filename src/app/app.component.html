@@ -8,31 +8,28 @@
       <h4 class="mb-3">Conta</h4>
       <div class="relative">
         <img class="w-3 left-2 top-3 absolute" src="icon-dollar.svg" alt="">
-        <input [(ngModel)]="valorConta" (input)="calcularGorjeta()" 
-               class="cursor-pointer w-80 text-end p-2 mb-5 rounded-lg xl:w-96" 
-               type="number" placeholder="0">
+        <input [(ngModel)]="valorConta" (input)="calcularGorjeta()"
+          class="cursor-pointer w-80 text-end p-2 mb-5 rounded-lg xl:w-96" type="number" placeholder="0">
       </div>
 
       <h4 class="col-span-2 mx-0 mb-3">Selecione a porcentagem %</h4>
       <ul class="grid grid-cols-2 gap-8 mx-auto text-center mb-4 font-extrabold xl:grid-cols-3 xl:gap-7">
 
         <li *ngFor="let percent of porcentagens" (click)="selecionarPorcentagem(percent)"
-            class="cursor-pointer w-36 p-3 rounded-lg xl:w-28">
+          class="cursor-pointer w-36 p-3 rounded-lg active:scale-90 xl:w-28">
           {{ percent }}%
         </li>
 
         <input [(ngModel)]="gorjetaPercentual" (input)="calcularGorjeta()"
-               class="cursor-pointer w-36 p-3 rounded-lg text-center xl:w-28" 
-               type="number" placeholder="Custom">
+          class="cursor-pointer w-36 p-3 rounded-lg text-center xl:w-28" type="number" placeholder="Custom">
 
       </ul>
 
       <h4 class="mb-3">Numero de pessoas</h4>
       <div class="relative">
         <img class="w-3 left-2 top-3 absolute" src="icon-person.svg" alt="">
-        <input [(ngModel)]="numPessoas" (input)="calcularGorjeta()"
-               class="w-80 text-end p-2 mb-5 rounded-lg xl:w-96" 
-               type="number" placeholder="0">
+        <input [(ngModel)]="numPessoas" (input)="calcularGorjeta()" class="w-80 text-end p-2 mb-5 rounded-lg xl:w-96"
+          type="number" placeholder="0">
       </div>
     </div>
 
@@ -42,7 +39,7 @@
           <h4 class="text-white">Valor da gorjeta</h4>
           <p class="text-gray-400">/ pessoa</p>
         </div>
-        <span>{{ gorjetaPorPessoa | currency:'USD' }}</span>
+        <span>{{ gorjetaPorPessoa | currency:'BRL' }}</span>
       </div>
 
       <div class="flex justify-between mb-10">
@@ -50,11 +47,11 @@
           <h4 class="text-white">Total</h4>
           <p class="text-gray-400">/ pessoa</p>
         </div>
-        <span>{{ totalPorPessoa | currency:'USD' }}</span>
+        <span>{{ totalPorPessoa | currency:'BRL' }}</span>
       </div>
 
-      <button (click)="reset()" 
-              class="block cursor-pointer reset w-72 border p-3 rounded-lg uppercase font-bold xl:mt-32 xl:w-80 xl:mx-auto">
+      <button (click)="reset()"
+        class="block cursor-pointer reset w-72 border p-3 rounded-lg uppercase font-bold active:scale-95 xl:mt-32 xl:w-80 xl:mx-auto">
         Reset
       </button>
     </div>
