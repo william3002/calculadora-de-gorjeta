@@ -9,11 +9,11 @@
       <div class="relative">
         <img class="w-3 left-2 top-3 absolute" src="icon-dollar.svg" alt="">
         <input [(ngModel)]="valorConta" (input)="calcularGorjeta()"
-          class="cursor-pointer w-80 text-end p-2 mb-5 rounded-lg xl:w-96" type="number" placeholder="0">
+          class="cursor-pointer w-80 text-end p-2 mb-5 rounded-lg xl:w-96" pattern="[0-9]*" inputmode="numeric" type="number" placeholder="0">
       </div>
 
       <h4 class="col-span-2 mx-0 mb-3">Selecione a porcentagem %</h4>
-      <ul class="grid grid-cols-2 gap-8 mx-auto text-center mb-4 font-extrabold xl:grid-cols-3 xl:gap-7">
+      '<ul class="grid grid-cols-2 gap-8 mx-auto text-center mb-4 font-extrabold xl:grid-cols-3 xl:gap-7">
 
         <li *ngFor="let percent of porcentagens" (click)="selecionarPorcentagem(percent)"
           class="cursor-pointer w-36 p-3 rounded-lg active:scale-90 xl:w-28">
@@ -21,7 +21,7 @@
         </li>
 
         <input [(ngModel)]="gorjetaPercentual" (input)="calcularGorjeta()"
-          class="cursor-pointer w-36 p-3 rounded-lg text-center xl:w-28" type="number" placeholder="Custom">
+          class="cursor-pointer w-36 p-3 rounded-lg text-center xl:w-28" type="number" placeholder="Custom" pattern="[0-9]*" inputmode="numeric">
 
       </ul>
 
@@ -29,7 +29,7 @@
       <div class="relative">
         <img class="w-3 left-2 top-3 absolute" src="icon-person.svg" alt="">
         <input [(ngModel)]="numPessoas" (input)="calcularGorjeta()" class="w-80 text-end p-2 mb-5 rounded-lg xl:w-96"
-          type="number" placeholder="0">
+          type="number" placeholder="0" min="1" pattern="[0-9]*" inputmode="numeric">
       </div>
     </div>
 
